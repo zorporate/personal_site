@@ -1,12 +1,13 @@
 @namespace html "http://www.w3.org/1999/xhtml";
 @namespace xul "http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul";
 
-* {
-  font-family: 'Segoe UI'
-}
-
 #errorShortDesc {
   margin-bottom: 35px;
+}
+
+/* MOVE THIS TO A GENERAL CSS FILE */
+body {
+  margin: 0;
 }
 
 /* :host,
@@ -202,10 +203,11 @@
   color: var(--in-content-page-color);
 }
 
-body {
+.body {
   font-size: 15px;
   font-weight: normal;
   margin: 0;
+  font-family: 'Segoe UI'
 }
 
 /* h1 { */
@@ -231,6 +233,7 @@ body {
   margin: 4px 8px;
   margin-inline: 4px;
   font-size: 1em;
+  font-family: 'Segoe UI'
 }
 
 .ffButton:enabled:hover {

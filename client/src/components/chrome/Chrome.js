@@ -58,7 +58,7 @@ const Chrome = (props) => {
           </div>
           <div id={styles.buttons} className={`${styles.navWrapper} ${styles.suggestedLeft} ${styles.chromeFont}`}>
             <div id={styles.controlButtons}>
-              <button className="">
+              <button className={styles.button}>
                 Reload
               </button>
             </div>

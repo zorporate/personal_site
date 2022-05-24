@@ -36,7 +36,7 @@ const Firefox = (_props) => {
           </div>
 
           <div className={styles.buttonContainer}>
-            <button className={`${styles.primary} ${styles.tryAgain} ${styles.ffButtons}`}>Try Again</button>
+            <button className={`${styles.primary} ${styles.tryAgain} ${styles.ffButton}`}>Try Again</button>
           </div>
 
         </div>
